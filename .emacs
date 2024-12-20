@@ -22,6 +22,10 @@
 (global-set-key (kbd "C-t") 'previous-line)
 (global-set-key (kbd "M-z") 'execute-extended-command)
 
+;; add path to nix-profiles
+
+(add-to-list 'exec-path "/run/current-system/sw/bin")
+
 ;; basic functionalities
 
 (setq-default
